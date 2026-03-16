@@ -72,7 +72,7 @@ require_value() {
 }
 
 # Parametros de cluster/proyecto (ajusta segun tu entorno)
-JOB_PARTITION="${JOB_PARTITION:-compute}"
+JOB_PARTITION="${JOB_PARTITION:-ml4bm}"
 JOB_ACCOUNT="${JOB_ACCOUNT:-}"
 JOB_QOS="${JOB_QOS:-}"
 JOB_CONSTRAINT="${JOB_CONSTRAINT:-}"
