@@ -9,7 +9,7 @@ set -euo pipefail
 #
 # Opcionalmente puedes sobreescribir parametros por variables de entorno:
 #   JOB_TIME=08:00:00 JOB_CPUS=8 JOB_MEM=32G bash scripts/slurm_interactive.sh
-#
+#  srun --pty --nodes=1 --ntasks=1 --cpus-per-task=1 --mem=64G --time=08:00:00 --partition=ml4bm /bin/bash
 # O pasar argumentos por CLI:
 #   bash scripts/slurm_interactive.sh --time 08:00:00 --cpus 8 --mem 32G --gpus 1 --nodes 1 --ntasks 1
 # ==============================================================

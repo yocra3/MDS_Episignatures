@@ -47,3 +47,15 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+## Custom folders
+figures/
+results/
+data/
+
+## Custom files
+*.Rdata
+*.pdf
+*.sif
+*.html
+*.png
